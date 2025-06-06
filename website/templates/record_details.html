@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class = "col-md-6 offset-md-3">
+    <br/>
+    <h1 style='color:rgb(83, 83, 187)'>Record Details</h1><br/>
+    <h4><b>First Name-</b>  {{requested_record.first_name}}</h4>
+    <h4><b>Last Name-</b>  {{requested_record.last_name}}</h4>
+    <h4><b>Email-</b>  {{requested_record.email}}</h4>
+    <h4><b>Record Create At-</b>  {{requested_record.created_at}}</h4>
+    <h4><b>Is Staff-</b>  {{requested_record.staff_status}}</h4>
+    <br/>
+    <a href="{% url 'home' %}" class="btn btn-success">Back</a>
+</div>
+{% endblock %}
