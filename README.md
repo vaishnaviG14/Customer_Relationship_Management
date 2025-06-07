@@ -33,3 +33,4 @@ Only users regsterd on admin (Superuser) panel can login
 admin panel- http://127.0.0.1:8000/admin
 
 to start- python manage.py runserver
+![Home Page](https://github.com/vaishnaviG14/Customer_Relationship_Management/blob/main/Screenshot%20(904).png)
