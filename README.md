@@ -9,13 +9,13 @@ Bootstrap 5
 HTML/CSS  
 
 🚀 Features-  
-✅ User Authentication (Login/Logout)  
-🧑‍💼 Add New Records (Customer or Staff)  
-🔍 View Individual Record Details  
-❌ Delete Records  
-🔐 Restrict access to logged-in users only  
-🗃️ Backed by PostgreSQL database  
-🧾 Clean, responsive UI using Bootstrap  
+User Authentication (Login/Logout)  
+Add New Records (Customer or Staff)  
+View Individual Record Details  
+Delete Records  
+Restrict access to logged-in users only  
+Backed by PostgreSQL database  
+Clean, responsive UI using Bootstrap  
 
 🗃️ Setup-  
 pip install virtualenv  
